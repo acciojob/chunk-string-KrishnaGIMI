@@ -2,7 +2,7 @@ function stringChop(str, size) {
   // your code here
 	let gb=[]
 	if(str==""){
-		return [""]
+		return [str]
 	}
 	if(str.length<size){
 		gb.push(str)
