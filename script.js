@@ -4,6 +4,7 @@ function stringChop(str, size) {
 	if(str.length<size){
 		gb.push(str)
 		return str;
+	}
 	
 	for(let i=0; i<str.length; i=i+size){
 	    gb.push(str.substring(i,i+size))
